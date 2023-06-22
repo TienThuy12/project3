@@ -1,0 +1,5 @@
+function renderHotSpots() {
+    config.hotSpots.forEach(renderHotSpot);
+}
+
+var span = document.createElement('span');
